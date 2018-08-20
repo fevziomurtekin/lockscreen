@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fevziomurtekin.lockscreen" >
+
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+    <application>
+        <activity android:name=".LookScreen"/>
+    </application>
+</manifest>

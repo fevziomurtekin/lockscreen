@@ -1,0 +1,61 @@
+<RelativeLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/rlFingerprint"
+    android:background="@drawable/dialogbg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtFingerPrint"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAlignment="center"
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtFingerPrint"
+        android:id="@+id/imgFingerPrint"
+        android:src="@drawable/fingerprint"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/txtTouchSensor"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTouchSensor"
+        android:layout_below="@id/txtFingerPrint"
+        android:layout_marginLeft="10dp"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:layout_alignTop="@id/imgFingerPrint"
+        android:layout_alignBottom="@id/imgFingerPrint"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPass"
+        android:textStyle="bold"
+        android:text="Use to Pin Code"
+        android:background="@drawable/alertbutton"
+        android:layout_below="@id/imgFingerPrint"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LookScreen">
+        <attr name="look_pass"      format="string"/>
+        <attr name="useFingerprint" format="boolean"/>
+        <attr name="digitCount"     format="integer" />
+        <attr name="titleSize"      format="float" />
+        <attr name="messageSize"    format="float" />
+        <attr name="errorSize"      format="float" />
+        <attr name="titleColor"     format="color" />
+        <attr name="errorColor"     format="color" />
+        <attr name="messageColor"   format="color" />
+        <attr name="title"          format="string" />
+        <attr name="message"        format="string" />
+        <attr name="error"          format="string" />
+        <attr name="pass"           format="string" />
+    </declare-styleable>
+</resources>

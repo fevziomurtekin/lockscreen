@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LockScreen</string>
+    <string name="permissionfinger">You should get permission for the fingerprint sensor.</string>
+</resources>
