@@ -71,10 +71,10 @@ allprojects {
 | `title` | Default text, "Enter your password. " |
 | `titleSize` | The size in sp of the title text size (by default 15sp) |
 | `titleColor` | The color in int of the title text color (R.color.black) |
-| `message` | The start and end padding in dp of the content pages relative to the parent layout (by default 32dp) |
+| `message` | The value in string of the message items (by default "Log in with your password or fingerprint reader.")  |
 | `messageSize` |The size in sp of the message text size (by default 14sp) |
 | `messageColor` | The color in int of the title text color (R.color.black) |
-| `error` | The size in dp of the header items (by default 92dp) |
+| `error` | The value in string of the error items (by default "You entered an incorrect password. Please try again.") |
 | `errorSize` | The size in sp of the title text size (by default 14sp) |
 | `errorColor` | The color in int of the title text color (R.color.red) |
 | `intent` | It is for transferring to another class when successfully logged in |
