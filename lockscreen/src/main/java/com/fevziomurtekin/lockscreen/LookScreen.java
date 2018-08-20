@@ -38,7 +38,6 @@ import static java.security.AccessController.getContext;
 
 public class LookScreen extends AppCompatActivity implements IAuthenticateListener, PassCodeView.TextChangeListener, View.OnClickListener {
 
-    private String loockPass=""; /*Fingerprint loockpass*/
 
     private boolean useFingerprint=false; /*If you have the FingerPrint sensor, we ask if you want to use it.*/
 
@@ -108,7 +107,7 @@ public class LookScreen extends AppCompatActivity implements IAuthenticateListen
 
         titleColor      = getResources().getColor(R.color.black);
         messageColor    = getResources().getColor(R.color.black);
-        errorColor    = getResources().getColor(R.color.red);
+        errorColor      = getResources().getColor(R.color.red);
 
         /*textTitle is created*/
         textTitle       =findViewById(R.id.txtTitle);
@@ -222,6 +221,12 @@ public class LookScreen extends AppCompatActivity implements IAuthenticateListen
         this.messageColor = messageColor;
     }
 
+    @Override
+    public void setTitleColor(int titleColor) {
+        this.titleColor = titleColor;
+    }
+
+
     public void setTitle(String title) {
         this.title = title;
     }
@@ -250,10 +255,6 @@ public class LookScreen extends AppCompatActivity implements IAuthenticateListen
         this.errorColor = errorColor;
     }
 
-    public void setLoockPass(String loockPass) {
-        this.loockPass = loockPass;
-    }
-
     @Override
     public void setIntent(Intent intent) {
         this.intent = intent;
@@ -262,9 +263,9 @@ public class LookScreen extends AppCompatActivity implements IAuthenticateListen
         this.pass = pass;
     }
 
-    public void setUseFingerprint(boolean useFingerprint) {
+ /*   public void setUseFingerprint(boolean useFingerprint) {
         this.useFingerprint = useFingerprint;
-    }
+    }*/
 
     @Override
     public void onClick(View view) {
