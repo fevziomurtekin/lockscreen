@@ -1,6 +1,7 @@
 # Lock Screen
 
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Lock%20screen-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/7126)
+[![](https://jitpack.io/v/fevziomurtekin/lockscreen.svg)](https://jitpack.io/#fevziomurtekin/lockscreen)
+ [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Lock%20screen-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/7126)
 
 Security screen using fingerprint or pin code. 
 
